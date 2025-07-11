@@ -4,6 +4,6 @@ node modules/
 ./node_modules
 
 dist/
-build/
+.build/
 
 .log
