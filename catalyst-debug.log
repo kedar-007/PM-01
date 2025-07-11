@@ -1,0 +1,1519 @@
+[debug] [2025-07-07T07:03:21.370Z] : 
+[debug] [2025-07-07T07:03:21.371Z] : ----------------------------------------------------------------------
+[debug] [2025-07-07T07:03:21.371Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst serve
+[debug] [2025-07-07T07:03:21.371Z] : CLI Version:  1.18.1
+[debug] [2025-07-07T07:03:21.371Z] : Platform:     darwin
+[debug] [2025-07-07T07:03:21.371Z] : Node Version: v22.16.0
+[debug] [2025-07-07T07:03:21.371Z] : Time:         Mon Jul 07 2025 12:33:21 GMT+0530 (India Standard Time)
+[debug] [2025-07-07T07:03:21.371Z] : ----------------------------------------------------------------------
+[debug] [2025-07-07T07:03:21.372Z] : 
+[debug] [2025-07-07T07:03:21.559Z] : > authorizing via signed-in user option
+[debug] [2025-07-07T07:03:21.559Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-07-07T07:03:21.565Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/17682000000037195 
+
+[debug] [2025-07-07T07:03:21.661Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 07 Jul 2025 07:03:21 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-07T07:03:21.663Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/17682000000037195/environment 
+
+[debug] [2025-07-07T07:03:21.690Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 07 Jul 2025 07:03:21 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-07T07:03:21.781Z] : Build folder already exists, starting cleanup
+[debug] [2025-07-07T07:03:22.048Z] : http port : '3000' is not available. Hence port '3002' will be used instead.
+[debug] [2025-07-07T07:03:22.052Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/17682000000037195/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-07-07T07:03:22.103Z] : http port : '5000' is not available. Hence port '5003' will be used instead.
+[debug] [2025-07-07T07:03:22.105Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 07 Jul 2025 07:03:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-07T07:03:22.106Z] : unknown eol undefined hence skipping check
+[debug] [2025-07-07T07:03:22.106Z] : unknown eol undefined hence skipping check
+[debug] [2025-07-07T07:03:22.106Z] : unknown eol undefined hence skipping check
+[debug] [2025-07-07T07:03:22.106Z] : unknown eol undefined hence skipping check
+[debug] [2025-07-07T07:03:24.761Z] : http port : '4200' is not available. Hence port '4201' will be used instead.
+[debug] [2025-07-07T07:03:24.761Z] : http port : '4000' is not available. Hence port '4004' will be used instead.
+[warn] [2025-07-07T07:03:24.775Z] : ⚠ skipping serve of function [send_remainder_function] since invalid function type. Only basicio,advancedio,browser_logic are supported.
+[warn] [2025-07-07T07:03:24.775Z] : ⚠ skipping serve of function [sending_email] since invalid function type. Only basicio,advancedio,browser_logic are supported.
+[info] [2025-07-07T07:03:26.038Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-07-07T07:03:26.039Z] : 
+[info] [2025-07-07T07:03:26.039Z] : ℹ Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-07-07T07:03:26.039Z] : 
+[info] [2025-07-07T07:03:26.608Z] : 
+[info] [2025-07-07T07:03:26.608Z] :  >>>>>>>>>>>>>> BasicIO <<<<<<<<<<<<<< 
+[info] [2025-07-07T07:03:26.608Z] : ℹ authentication: http://localhost:3002/server/authentication/execute
+[info] [2025-07-07T07:03:26.608Z] : 
+[info] [2025-07-07T07:03:26.608Z] : 
+[info] [2025-07-07T07:03:26.608Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2025-07-07T07:03:26.608Z] : ℹ time_entry_management_application_function: http://localhost:3002/server/time_entry_management_application_function/
+[info] [2025-07-07T07:03:26.608Z] : 
+[info] [2025-07-07T07:03:26.608Z] : 
+[info] [2025-07-07T07:03:26.608Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-07-07T07:03:26.608Z] : ℹ client[react-app]: http://localhost:3002/app/
+[info] [2025-07-07T07:03:26.609Z] : 
+[info] [2025-07-07T07:03:32.626Z] : [react-plugin]: Compiled successfully!
+[info] [2025-07-07T07:03:32.627Z] : [react-plugin]: 
+[info] [2025-07-07T07:03:32.627Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2025-07-07T07:03:32.627Z] : [react-plugin]: 
+[info] [2025-07-07T07:03:32.627Z] : [react-plugin]:   Local:            http://localhost:3002/app/
+[info] [2025-07-07T07:03:32.627Z] : [react-plugin]:   On Your Network:  http://192.168.20.16:3002/app/
+[info] [2025-07-07T07:03:32.627Z] : [react-plugin]: 
+[info] [2025-07-07T07:03:32.627Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-07-07T07:03:32.627Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-07-07T07:03:32.627Z] : [react-plugin]: 
+[info] [2025-07-07T07:07:02.728Z] : Shutting down server
+[info] [2025-07-07T07:07:04.943Z] : 
+[info] [2025-07-07T07:07:04.943Z] : ✔ Shutdown complete
+[debug] [2025-07-07T07:07:04.943Z] : NO ERRORS REGISTERED
+[debug] [2025-07-07T07:07:04.944Z] : EXEC ENDED with event: serve, message: success
+[debug] [2025-07-07T07:07:04.944Z] : TOTAL DURATION OF COMMAND EXEC : 223388
+[debug] [2025-07-07T07:07:04.961Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-07-07T07:07:05.051Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 07 Jul 2025 07:07:05 GMT","content-length":"0","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-08T06:36:49.238Z] : 
+[debug] [2025-07-08T06:36:49.242Z] : ----------------------------------------------------------------------
+[debug] [2025-07-08T06:36:49.242Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst functions:shell
+[debug] [2025-07-08T06:36:49.242Z] : CLI Version:  1.18.1
+[debug] [2025-07-08T06:36:49.242Z] : Platform:     darwin
+[debug] [2025-07-08T06:36:49.243Z] : Node Version: v22.16.0
+[debug] [2025-07-08T06:36:49.243Z] : Time:         Tue Jul 08 2025 12:06:49 GMT+0530 (India Standard Time)
+[debug] [2025-07-08T06:36:49.243Z] : ----------------------------------------------------------------------
+[debug] [2025-07-08T06:36:49.243Z] : 
+[debug] [2025-07-08T06:36:49.441Z] : > authorizing via signed-in user option
+[debug] [2025-07-08T06:36:49.441Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-07-08T06:36:49.447Z] : > refreshing access token <
+[debug] [2025-07-08T06:36:49.447Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-07-08T06:36:49.612Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Jul 2025 06:36:49 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-08T06:36:49.624Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/17682000000037195 
+
+[debug] [2025-07-08T06:36:49.822Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Jul 2025 06:36:49 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-08T06:36:49.825Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/17682000000037195/environment 
+
+[debug] [2025-07-08T06:36:49.856Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Jul 2025 06:36:49 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-08T06:36:49.950Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/17682000000037195/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-07-08T06:36:50.002Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Jul 2025 06:36:50 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-08T06:36:50.004Z] : unknown eol undefined hence skipping check
+[debug] [2025-07-08T06:36:50.004Z] : unknown eol undefined hence skipping check
+[debug] [2025-07-08T06:36:50.004Z] : unknown eol undefined hence skipping check
+[debug] [2025-07-08T06:36:50.005Z] : unknown eol undefined hence skipping check
+[warn] [2025-07-08T06:36:50.304Z] : ⚠ target [time_entry_management_application_function] is not a valid one reason : invalid function type. Only basicio,cron,event,integration,job are supported.
+[info] [2025-07-08T06:37:13.352Z] : 
+change of index.js in send_remainder_function detected. Preparing your function, please wait...
+[info] [2025-07-08T06:37:13.668Z] : ℹ functions[send_remainder_function]: ready!
+[info] [2025-07-08T06:37:16.605Z] : Generating new access token...
+
+[info] [2025-07-08T06:37:17.149Z] : 📧 Sending email to: abhijeet@fristinetech.com
+
+[info] [2025-07-08T06:37:17.150Z] : ✅ Email sent to abhijeet@fristinetech.com
+
+[info] [2025-07-08T06:37:17.341Z] : ✅ Inserted 1 analytics records for page 1
+
+[info] [2025-07-08T06:37:17.445Z] : ========REPORT========
+
+[info] [2025-07-08T06:37:17.445Z] : Total Users Processed: 1
+✅ Emails Sent Successfully:  1
+❌ Failed Emails: 0
+======================
+✅ Scheduled Job_Page_2
+
+[debug] [2025-07-08T06:37:17.449Z] : local fn slave exit: 0, null
+[info] [2025-07-08T06:37:17.449Z] : [CLI] Function send_remainder_function execution complete
+[info] [2025-07-08T06:37:17.449Z] : 
+[info] [2025-07-08T06:37:17.451Z] : [status - send_remainder_function] SUCCESS
+[info] [2025-07-08T06:38:58.869Z] : 
+change of index.js in send_remainder_function detected. Preparing your function, please wait...
+[info] [2025-07-08T06:38:59.202Z] : ℹ functions[send_remainder_function]: ready!
+[debug] [2025-07-10T06:35:58.350Z] : 
+[debug] [2025-07-10T06:35:58.354Z] : ----------------------------------------------------------------------
+[debug] [2025-07-10T06:35:58.354Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst serve
+[debug] [2025-07-10T06:35:58.355Z] : CLI Version:  1.18.1
+[debug] [2025-07-10T06:35:58.355Z] : Platform:     darwin
+[debug] [2025-07-10T06:35:58.355Z] : Node Version: v22.16.0
+[debug] [2025-07-10T06:35:58.355Z] : Time:         Thu Jul 10 2025 12:05:58 GMT+0530 (India Standard Time)
+[debug] [2025-07-10T06:35:58.355Z] : ----------------------------------------------------------------------
+[debug] [2025-07-10T06:35:58.355Z] : 
+[debug] [2025-07-10T06:35:58.554Z] : > authorizing via signed-in user option
+[debug] [2025-07-10T06:35:58.554Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-07-10T06:35:58.561Z] : > refreshing access token <
+[debug] [2025-07-10T06:35:58.562Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-07-10T06:35:58.712Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 10 Jul 2025 06:35:58 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-10T06:35:58.735Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/17682000000037195 
+
+[debug] [2025-07-10T06:35:58.844Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 10 Jul 2025 06:35:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-10T06:35:58.845Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/17682000000037195/environment 
+
+[debug] [2025-07-10T06:35:58.873Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 10 Jul 2025 06:35:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-10T06:35:58.988Z] : Build folder already exists, starting cleanup
+[debug] [2025-07-10T06:35:59.419Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/17682000000037195/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-07-10T06:35:59.485Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 10 Jul 2025 06:35:59 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-10T06:35:59.486Z] : unknown eol undefined hence skipping check
+[debug] [2025-07-10T06:35:59.486Z] : unknown eol undefined hence skipping check
+[debug] [2025-07-10T06:35:59.486Z] : unknown eol undefined hence skipping check
+[debug] [2025-07-10T06:35:59.486Z] : unknown eol undefined hence skipping check
+[warn] [2025-07-10T06:36:02.026Z] : ⚠ skipping serve of function [send_remainder_function] since invalid function type. Only basicio,advancedio,browser_logic are supported.
+[warn] [2025-07-10T06:36:02.026Z] : ⚠ skipping serve of function [sending_email] since invalid function type. Only basicio,advancedio,browser_logic are supported.
+[info] [2025-07-10T06:36:03.136Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-07-10T06:36:03.137Z] : 
+[info] [2025-07-10T06:36:03.137Z] : ℹ Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-07-10T06:36:03.137Z] : 
+[info] [2025-07-10T06:36:03.723Z] : 
+[info] [2025-07-10T06:36:03.723Z] :  >>>>>>>>>>>>>> BasicIO <<<<<<<<<<<<<< 
+[info] [2025-07-10T06:36:03.723Z] : ℹ authentication: http://localhost:3000/server/authentication/execute
+[info] [2025-07-10T06:36:03.723Z] : 
+[info] [2025-07-10T06:36:03.723Z] : 
+[info] [2025-07-10T06:36:03.723Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2025-07-10T06:36:03.723Z] : ℹ time_entry_management_application_function: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T06:36:03.723Z] : 
+[info] [2025-07-10T06:36:03.723Z] : 
+[info] [2025-07-10T06:36:03.723Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-07-10T06:36:03.724Z] : ℹ client[react-app]: http://localhost:3000/app/
+[info] [2025-07-10T06:36:03.724Z] : 
+[info] [2025-07-10T06:36:08.255Z] : [react-plugin]: Compiled successfully!
+[info] [2025-07-10T06:36:08.256Z] : [react-plugin]: 
+[info] [2025-07-10T06:36:08.256Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2025-07-10T06:36:08.256Z] : [react-plugin]: 
+[info] [2025-07-10T06:36:08.256Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-07-10T06:36:08.256Z] : [react-plugin]:   On Your Network:  http://192.168.20.16:3000/app/
+[info] [2025-07-10T06:36:08.256Z] : [react-plugin]: 
+[info] [2025-07-10T06:36:08.256Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-07-10T06:36:08.256Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-07-10T06:36:08.256Z] : [react-plugin]: 
+[info] [2025-07-10T06:43:33.863Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T06:43:37.794Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T06:43:37.794Z] : [react-plugin]: [eslint] 
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T06:43:37.794Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T06:43:37.795Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T06:44:12.250Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T06:44:14.700Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T06:44:14.701Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T06:44:14.701Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T06:44:14.701Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T06:46:50.411Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T06:46:52.020Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-10T06:46:52.024Z] : [react-plugin]: SyntaxError: /Users/fristineinfotech/Desktop/DSV-main/react-app/src/Admin/Issue.jsx: Unexpected token (372:10)
+  370 |
+  371 |       const assigneeIDs = selectedAssignees
+> 372 |         ??.map((employee) => employee.user_id)
+      |           ^
+  373 |         .join(","); // Join selected IDs as comma-separated string
+  374 |       const assigneeNames = selectedAssignees
+  375 |         ??.map((employee) => `${employee.first_name} ${employee.last_name}`)
+[info] [2025-07-10T06:47:14.815Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T06:47:16.395Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T06:47:16.395Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T06:47:16.395Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T06:47:16.396Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T06:48:08.007Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T06:48:09.731Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-10T06:48:09.735Z] : [react-plugin]: SyntaxError: /Users/fristineinfotech/Desktop/DSV-main/react-app/src/Admin/Task.jsx: Unexpected token (415:10)
+  413 |
+  414 |       const selectedUsernames = selectedValues
+> 415 |         ??.map((id) => {
+      |           ^
+  416 |           const user = assignOptions.find((option) => option.userID === id);
+  417 |           return user ? user.username : "";
+  418 |         })
+[info] [2025-07-10T06:48:21.359Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T06:48:22.945Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T06:48:22.945Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T06:48:22.945Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T06:48:22.945Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T07:01:56.344Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:02:02.466Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:02:02.470Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:02:23.111Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:02:27.015Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:02:27.015Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:04:06.550Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:04:09.639Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:04:09.641Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:04:13.781Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:04:16.348Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:04:16.348Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:04:28.411Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:04:32.135Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:04:32.136Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:04:33.137Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:04:36.718Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:04:36.718Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:04:41.777Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:04:45.575Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:04:45.575Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:05:28.492Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:05:31.820Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:05:31.821Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:06:01.652Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:06:05.684Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:06:05.684Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:07:17.612Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:07:22.254Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:07:22.254Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:14:52.893Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:14:56.739Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:14:56.741Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:15:49.549Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:15:53.438Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:15:53.438Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:16:40.812Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:16:44.573Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:16:44.574Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:17:15.600Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:17:19.545Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:17:19.545Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:17:36.689Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:17:40.134Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:17:40.135Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:17:56.948Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:18:00.503Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:18:00.503Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T07:18:30.042Z] : 
+change of controller/timeEntryController.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T07:18:34.208Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T07:18:34.208Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[debug] [2025-07-10T09:51:14.594Z] : > refreshing access token <
+[debug] [2025-07-10T09:51:14.655Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-07-10T09:51:14.867Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 10 Jul 2025 09:51:14 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-07-10T09:54:36.670Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T09:54:41.370Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T09:54:41.371Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:  'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 39:8:  'NotificationsIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 95:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T09:54:41.371Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T09:54:41.371Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T09:55:01.150Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T09:55:02.255Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-10T09:55:02.256Z] : [react-plugin]: [eslint] 
+src/Admin/Layout1.jsx
+  Line 59:5:  'setNotifications' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2025-07-10T09:55:29.187Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T09:55:30.376Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T09:55:30.377Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 39:8:   'NotificationsIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 52:7:   'openNotificationMenu' is assigned a value but never used                                                                                                                                                 no-unused-vars
+  Line 54:8:   'notifications' is assigned a value but never used                                                                                                                                                        no-unused-vars
+  Line 82:8:   'handleNotificationClick' is assigned a value but never used                                                                                                                                              no-unused-vars
+  Line 91:9:   'handleNotificationClose' is assigned a value but never used                                                                                                                                              no-unused-vars
+  Line 138:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T09:55:30.377Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T09:55:30.377Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T09:55:49.330Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T09:55:50.834Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-10T09:55:50.835Z] : [react-plugin]: [eslint] 
+src/Admin/Layout1.jsx
+  Line 217:4:   'Badge' is not defined        react/jsx-no-undef
+  Line 217:24:  'unreadCount' is not defined  no-undef
+  Line 256:12:  'Divider' is not defined      react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2025-07-10T09:56:30.425Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T09:56:32.180Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-10T09:56:32.180Z] : [react-plugin]: Attempted import error: '@mui/material' does not contain a default export (imported as 'Badge').
+[info] [2025-07-10T09:56:40.025Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T09:56:41.852Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-10T09:56:41.853Z] : [react-plugin]: [eslint] 
+src/Admin/Layout1.jsx
+  Line 217:4:   'Badge' is not defined        react/jsx-no-undef
+  Line 217:24:  'unreadCount' is not defined  no-undef
+  Line 256:12:  'Divider' is not defined      react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2025-07-10T09:57:21.501Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T09:57:22.867Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-10T09:57:22.867Z] : [react-plugin]: [eslint] 
+src/Admin/Layout1.jsx
+  Line 217:4:   'Badge' is not defined    react/jsx-no-undef
+  Line 256:12:  'Divider' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2025-07-10T09:57:48.505Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T09:57:49.977Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-10T09:57:49.977Z] : [react-plugin]: [eslint] 
+src/Admin/Layout1.jsx
+  Line 256:12:  'Divider' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2025-07-10T09:58:17.565Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T09:58:19.141Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T09:58:19.141Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 139:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T09:58:19.142Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T09:58:19.142Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:01:53.673Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:01:55.255Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:01:55.256Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 138:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:01:55.256Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:01:55.256Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:02:15.471Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:02:16.959Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:02:16.964Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 138:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:02:16.964Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:02:16.964Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:02:52.660Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:02:53.954Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:02:53.955Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 138:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:02:53.955Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:02:53.955Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:02:56.836Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:02:58.263Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:02:58.264Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 138:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:02:58.264Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:02:58.264Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:03:03.332Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:03:04.587Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:03:04.588Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 138:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:03:04.593Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:03:04.598Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:03:14.389Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:03:15.893Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:03:15.900Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 138:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:03:15.900Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:03:15.907Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:04:47.557Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:04:49.343Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-10T10:04:49.343Z] : [react-plugin]: [eslint] 
+src/Admin/Layout1.jsx
+  Line 261:18:  'CircleIcon' is not defined      react/jsx-no-undef
+  Line 273:20:  'AccessTimeIcon' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2025-07-10T10:05:03.798Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:05:05.085Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:05:05.085Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 141:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:05:05.085Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:05:05.085Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:05:49.505Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:05:51.107Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:05:51.107Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 141:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:05:51.107Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:05:51.108Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:06:00.330Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:06:01.606Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:06:01.612Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 141:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:06:01.614Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:06:01.620Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:06:30.810Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:06:31.948Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:06:31.949Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 138:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:06:31.949Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:06:31.949Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:06:41.003Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:06:42.444Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:06:42.445Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 138:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:06:42.445Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:06:42.445Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:06:50.148Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:06:51.418Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:06:51.426Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 138:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:06:51.427Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:06:51.432Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:08:22.159Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:08:23.599Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:08:23.599Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 138:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:08:23.599Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:08:23.600Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:08:58.543Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:08:59.875Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:08:59.875Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 138:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:08:59.875Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:08:59.875Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:09:56.519Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:09:58.154Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:09:58.154Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 138:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:09:58.154Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:09:58.154Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:11:50.533Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:11:52.167Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-10T10:11:52.167Z] : [react-plugin]: [eslint] 
+src/Admin/Layout1.jsx
+  Line 282:20:  'handleClearAll' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2025-07-10T10:12:05.547Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:12:07.236Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:12:07.245Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 141:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:12:07.251Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:12:07.251Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:13:11.046Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:13:12.765Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:13:12.766Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 141:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:13:12.766Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:13:12.766Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:13:53.742Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:13:55.478Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:13:55.478Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 141:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:13:55.479Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:13:55.479Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:14:38.530Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:14:40.448Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:14:40.449Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 141:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:14:40.449Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:14:40.449Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:15:44.391Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:15:45.914Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:15:45.914Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 141:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:15:45.914Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:15:45.914Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:16:17.224Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:16:18.648Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-10T10:16:18.649Z] : [react-plugin]: SyntaxError: /Users/fristineinfotech/Desktop/DSV-main/react-app/src/Admin/Layout1.jsx: Unexpected token (271:17)
+  269 |
+  270 |         <IconButton>
+> 271 |           < color="primary" />
+      |                  ^
+  272 |         </IconButton>
+  273 |         <Typography
+  274 |           variant="body2"
+[info] [2025-07-10T10:17:07.068Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:17:08.732Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-10T10:17:08.732Z] : [react-plugin]: [eslint] 
+src/Admin/Layout1.jsx
+  Line 271:12:  'CloseIcon' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2025-07-10T10:17:16.348Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:17:18.002Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:17:18.005Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 141:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:17:18.012Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:17:18.012Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:17:19.674Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:17:20.931Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:17:20.931Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 142:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:17:20.931Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:17:20.931Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:17:41.621Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:17:42.875Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:17:42.876Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 142:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:17:42.876Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:17:42.876Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:17:52.648Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:17:54.091Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:17:54.092Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 142:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:17:54.092Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:17:54.092Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:18:31.360Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:18:32.882Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:18:32.895Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 142:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:18:32.906Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:18:32.906Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:18:53.630Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:18:55.111Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:18:55.111Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 142:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:18:55.111Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:18:55.112Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:19:13.847Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:19:14.958Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:19:14.959Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 142:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:19:14.959Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:19:14.959Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:20:28.607Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:20:29.783Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-10T10:20:29.784Z] : [react-plugin]: SyntaxError: /Users/fristineinfotech/Desktop/DSV-main/react-app/src/Admin/Layout1.jsx: Expected corresponding JSX closing tag for <ListItem>. (317:10)
+  315 | />
+  316 |             <Divider />
+> 317 |           </React.Fragment>
+      |           ^
+  318 |         ))}
+  319 |       </List>
+  320 |     </>
+[info] [2025-07-10T10:20:33.863Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:20:35.222Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:20:35.222Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 142:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:20:35.222Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:20:35.222Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:20:52.019Z] : [react-plugin]: Compiling...
+[info] [2025-07-10T10:20:53.374Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-10T10:20:53.374Z] : [react-plugin]: [eslint] 
+src/Admin/Issue.jsx
+  Line 174:6:  React Hook useEffect has missing dependencies: 'Employees.data', 'Projects.data', and 'data'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/Admin/Layout1.jsx
+  Line 16:8:   'AccountCircleIcon' is defined but never used                                                                                                                                                             no-unused-vars
+  Line 142:3:  React Hook useEffect contains a call to 'setUserProfile'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+
+src/Admin/Task.jsx
+  Line 24:3:    'Stack' is defined but never used                                                                                                           no-unused-vars
+  Line 55:8:    'CategoryIcon' is defined but never used                                                                                                    no-unused-vars
+  Line 125:19:  'setLoading' is assigned a value but never used                                                                                             no-unused-vars
+  Line 129:9:   'fileOpen' is assigned a value but never used                                                                                               no-unused-vars
+  Line 130:9:   'attachementOpen' is assigned a value but never used                                                                                        no-unused-vars
+  Line 151:10:  'TaskName' is assigned a value but never used                                                                                               no-unused-vars
+  Line 206:6:   React Hook useEffect has missing dependencies: 'data', 'employeedata', and 'tasksData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 232:6:   React Hook useEffect has missing dependencies: 'projectId' and 'projectName'. Either include them or remove the dependency array            react-hooks/exhaustive-deps
+  Line 553:13:  'Assign_To_ID' is assigned a value but never used                                                                                           no-unused-vars
+[info] [2025-07-10T10:20:53.374Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-10T10:20:53.375Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-10T10:27:30.962Z] : 
+addDir of utils in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T10:27:34.389Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T10:27:34.390Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T10:27:43.882Z] : 
+add of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T10:27:48.074Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T10:27:48.074Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T10:28:34.443Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T10:28:38.412Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T10:28:38.412Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T10:31:29.683Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T10:31:32.546Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T10:31:32.547Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T10:31:38.654Z] : 
+add of utils/sendEmail.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T10:31:42.236Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T10:31:42.236Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T10:31:51.963Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T10:31:55.617Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T10:31:55.617Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T10:32:09.031Z] : 
+change of utils/sendEmail.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T10:32:11.835Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T10:32:11.835Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T10:34:23.702Z] : 
+change of utils/sendEmail.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T10:34:27.118Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T10:34:27.118Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T10:37:40.119Z] : 
+change of utils/sendEmail.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T10:37:43.932Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T10:37:43.933Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T10:39:24.392Z] : 
+change of utils/sendEmail.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T10:39:27.338Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T10:39:27.339Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T10:57:32.304Z] : 
+change of utils/sendEmail.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T10:57:38.139Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T10:57:38.139Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T10:58:37.157Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T10:58:41.709Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T10:58:41.711Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T10:58:43.912Z] : 
+change of utils/sendEmail.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T10:58:46.701Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T10:58:46.701Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:08:58.094Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:09:01.748Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:09:01.748Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:11:00.183Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:11:03.431Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:11:03.431Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:14:31.612Z] : 
+unlink of admin.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:14:36.221Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:14:36.221Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:15:26.685Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:15:29.700Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:15:29.701Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:16:14.025Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:16:16.895Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:16:16.895Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:17:49.918Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:17:53.069Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:17:53.069Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[debug] [2025-07-10T11:17:58.926Z] : > refreshing access token <
+[debug] [2025-07-10T11:17:58.958Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-07-10T11:17:59.190Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 10 Jul 2025 11:17:59 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-07-10T11:19:00.120Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:19:04.175Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:19:04.175Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:19:17.910Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:19:20.845Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:19:20.845Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:21:11.926Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:21:15.207Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:21:15.207Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:21:26.652Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:21:29.448Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:21:29.448Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:21:32.174Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:21:35.219Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:21:35.220Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:22:25.911Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:22:28.932Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:22:28.933Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:22:43.448Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:22:47.182Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:22:47.183Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:23:15.038Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:23:19.286Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:23:19.286Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:23:37.550Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:23:40.651Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:23:40.651Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:24:11.829Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:24:15.184Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:24:15.185Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:26:12.520Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:26:15.915Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:26:15.915Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:26:16.917Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:26:20.212Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:26:20.212Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:26:27.069Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:26:29.773Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:26:29.774Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:26:38.562Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:26:42.271Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:26:42.271Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:27:54.119Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:27:57.220Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:27:57.220Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:28:13.281Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:28:17.538Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:28:17.538Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:28:34.919Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:28:37.696Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:28:37.696Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:28:44.589Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:28:47.658Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:28:47.658Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:28:51.835Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:28:55.793Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:28:55.793Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:29:41.963Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:29:45.097Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:29:45.097Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:29:57.933Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:30:00.609Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:30:00.610Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:30:28.495Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:30:32.213Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:30:32.213Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:30:37.305Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:30:40.543Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:30:40.544Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:47:32.088Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:47:35.912Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:47:35.912Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:48:51.455Z] : 
+change of utils/sendEmail.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:48:54.605Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:48:54.605Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:49:11.369Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:49:14.415Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:49:14.415Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:49:27.415Z] : 
+change of index.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:49:30.098Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:49:30.099Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:50:01.116Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:50:04.335Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:50:04.343Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:50:14.033Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:50:17.438Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:50:17.439Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:53:27.880Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:53:31.539Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:53:31.540Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:56:45.459Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:56:48.759Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:56:48.759Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:57:53.290Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:57:56.431Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:57:56.432Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[info] [2025-07-10T11:58:22.494Z] : 
+change of utils/sendNotification.js in time_entry_management_application_function detected. Preparing your function, please wait...
+[info] [2025-07-10T11:58:25.506Z] : ℹ AdvancedIO[time_entry_management_application_function]: ready!
+[info] [2025-07-10T11:58:25.506Z] : ℹ AdvancedIO[time_entry_management_application_function]: http://localhost:3000/server/time_entry_management_application_function/
+[debug] [2025-07-11T04:01:07.368Z] : > refreshing access token <
+[debug] [2025-07-11T04:01:07.407Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-07-11T04:01:07.553Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 11 Jul 2025 04:01:07 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-11T06:21:37.149Z] : > refreshing access token <
+[debug] [2025-07-11T06:21:37.205Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-07-11T06:21:37.351Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 11 Jul 2025 06:21:37 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+

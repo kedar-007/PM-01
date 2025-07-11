@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "targets": [
+      "authentication",
+      "time_entry_management_application_function",
+      "send_remainder_function",
+      "sending_email"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "react-app",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}
